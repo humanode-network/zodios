@@ -47,7 +47,8 @@
     "patch-rc": "npm version prepatch --preid=rc",
     "rc": "npm version prerelease --preid=rc",
     "build": "tsup",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "prepack": "npm run build"
   },
   "peerDependencies": {
     "axios": "^0.x || ^1.0.0",
