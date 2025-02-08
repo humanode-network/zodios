@@ -3,6 +3,13 @@ export type { ApiOf } from "./zodios";
 export type { ZodiosInstance, ZodiosClass, ZodiosConstructor } from "./zodios";
 export { ZodiosError } from "./zodios-error";
 export { isErrorFromPath, isErrorFromAlias } from "./zodios-error.utils";
+export {
+  findEndpoint,
+  findEndpointByAlias,
+  findEndpointErrors,
+  findEndpointErrorsByAlias,
+  findEndpointErrorsByPath,
+} from "./utils";
 export type {
   AnyZodiosMethodOptions,
   AnyZodiosRequestOptions,
